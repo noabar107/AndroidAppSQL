@@ -1,15 +1,29 @@
+### Gradle / Android ###
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
+.gradle/
+build/
 /build
-/captures
-.externalNativeBuild
-.cxx
+app/build/
+.externalNativeBuild/
+.cxx/
+captures/
+
+### Local configuration ###
 local.properties
+/local.properties
+
+### IDE files ###
+.idea/
+*.ipr
+*.iws
+*.swp
+*.swo
+.DS_Store
+
+### WSL / OS noise ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Test & reports (generated) ###
+app/build/reports/
