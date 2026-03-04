@@ -1,0 +1,29 @@
+### Gradle / Android ###
+*.iml
+.gradle/
+build/
+/build
+app/build/
+.externalNativeBuild/
+.cxx/
+captures/
+
+### Local configuration ###
+local.properties
+/local.properties
+
+### IDE files ###
+.idea/
+*.ipr
+*.iws
+*.swp
+*.swo
+.DS_Store
+
+### WSL / OS noise ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Test & reports (generated) ###
+app/build/reports/
